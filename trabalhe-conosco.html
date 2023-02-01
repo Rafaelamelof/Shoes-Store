@@ -7,7 +7,9 @@
     <title>Trabalhe Conosco</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
+
     <header class="container">
         <img src="./assets/img/shoes-logo-2.png" alt="logo rosa">
         <section class="linksHeader">
@@ -16,6 +18,58 @@
             <a href="">Outlet</a>
         </section>
     </header>
+
+    <main class="container">
+        <h1>Faça parte do nosso time</h1>
+
+        <form action="submit" method="POST">
+        <section>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+        </section>
+        <section>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </section>
+        <section>
+            <label for="tel">Telefone</label>
+            <input type="number" name="telefone" id="tel">
+        </section>
+        <section>
+            <label for="departamentos">Departamentos</label>
+            <input type="text" name="departamentos" id="departamentos">
+        </section>
+        <section>
+            <label for="disponibilidade">Disponibilidade</label>
+            <label for="integral">Integral(8h)</label>
+            <input type="checkbox" nome="disponibilidade" value="Integral(8h)">
+            <label for="Meio Período(4h)">Meio Período(4h)</label>
+            <input type="checkbox" nome="disponibilidade" value="Meio Período(4h)">
+            <label for="Freelancer">Freelancer</label>
+            <input type="checkbox" nome="disponibilidade" value="Freelancer">
+        </section>
+        <section>
+            <label for="">Qual a melhor forma para entrarmos em contato com você?</label>
+            <label for="">Email</label>
+            <input type="radio" nome="contato" value="email">
+            <label for="">Ligação</label>
+            <input type="radio" nome="contato" value="ligação">
+            <label for="">WhatsApp</label>
+            <input type="radio" nome="contato" value="whatsapp">
+        </section>
+        <section>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" ></textarea>
+        </section>
+        <section>
+            <label for="curriculo">Curriculo</label>
+            <input type="file" nome="curriculo" accept=".pdf">
+        </section>
+        <button type="submit" nome="enviar">enviar</button>
+        </form>
+
+    </main>
     
 </body>
+
 </html>
