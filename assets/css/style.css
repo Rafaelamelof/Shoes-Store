@@ -78,6 +78,13 @@ header {
 
 .products{
     display:flex;
+    background-color:#c2185b;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px;
 
 }
 
@@ -86,9 +93,12 @@ header {
 }
 
 .products div{
-
+    display: flex;
+    color: black;
+  
+    margin-top:20px;
 }
 
 .card-products{
-    
+    background-color: white;
 }
