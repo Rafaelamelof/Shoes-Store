@@ -56,54 +56,36 @@ header {
   margin-right: 20px;
 }
 
-.banner, .banner img {
-  width: 100%;
-}
+.trabalhe-conosco{
+    color:#9b9b9b;
+    width:50%;
+    margin: 60px auto;
+    border: 1px solid #9b9b9b;
+    box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.25);
 
-.your-style{
-    padding: 30px;
-}
-
-.your-style h1{
-    text-align: center;
-    font-size: 40px;
-}
-
-.your-style article{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    margin-top: 60px;
-}
-
-.products{
+    padding:30px;
     display:flex;
-    background-color:#c2185b;
-    color: white;
-    justify-content: center;
-    align-items: center;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     flex-wrap: wrap;
-    flex-direction: column;
-    padding: 50px;
-
+    gap:10px;
 }
 
-.products h2{
-
+.input-wrapped{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    gap:5px;
 }
 
-.products div{
-    display: flex;
-    color: black;
-  
-    margin-top:20px;
+.input-wrapped label{
+    font-weight: bold;
 }
 
-.card-products{
-    background-color: white;
+
+/* .disponibilidade, .contato, div{
+    display:flex;
+    flex-direction:row;
+
 }
-
-/* Formulário: trabalhe-conosco */
-
